@@ -32,7 +32,7 @@ export abstract class ItemBase {
   }
 
   decreaseSellIn() {
-    this.sellIn = this.sellIn - 1;
+    this.sellIn--1;
   }
 
   abstract updateItem();
